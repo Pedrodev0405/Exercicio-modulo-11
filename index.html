@@ -4,81 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loja Virtual</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.css"> 
 </head>
 <body>
+
     <header>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Produtos</a></li>
-                <li><a href="#">Sobre a Loja</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Loja Virtual</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Produtos</a></li>
+                    <li><a href="#">Sobre a Loja</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
         <!-- Seção sobre a loja -->
-        <section id="sobre-loja">
+        <section id="sobre-a-loja">
             <div class="container">
-                <div class="coluna-imagem">
-                    <img src="https://dummyimage.com/300x300">
-                </div>
-                <div class="coluna-texto">
+                <img src="https://dummyimage.com/500x500" alt="Sobre a loja">
+                <div class="texto">
                     <h2>Sobre a nossa loja</h2>
                     <p>Bem-vindo à nossa loja! Aqui você encontra os melhores produtos com qualidade garantida...</p>
                 </div>
             </div>
         </section>
 
-        <!-- Seção de produtos -->
+        <!-- Seção Produtos -->
         <section id="produtos">
             <div class="container">
                 <div class="produto">
                     <img src="https://dummyimage.com/300x300" alt="Produto 1">
                     <h3>Produto 1</h3>
-                    <p>Descrição do produto 1.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <button>Adicionar ao carrinho</button>
                 </div>
                 <div class="produto">
                     <img src="https://dummyimage.com/300x300" alt="Produto 2">
                     <h3>Produto 2</h3>
-                    <p>Descrição do produto 2.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <button>Adicionar ao carrinho</button>
                 </div>
                 <div class="produto">
                     <img src="https://dummyimage.com/300x300" alt="Produto 3">
                     <h3>Produto 3</h3>
-                    <p>Descrição do produto 3.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <button>Adicionar ao carrinho</button>
                 </div>
                 <div class="produto">
                     <img src="https://dummyimage.com/300x300" alt="Produto 4">
                     <h3>Produto 4</h3>
-                    <p>Descrição do produto 4.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <button>Adicionar ao carrinho</button>
                 </div>
             </div>
         </section>
-
-        <!-- Seção de contato -->
-        <section id="contato">
-            <h2>Entre em Contato</h2>
-            <form action="#" method="post">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" required></textarea>
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Loja Virtual. Todos os direitos reservados.</p>
+        <div class="container">
+            <p>&copy; 2025 Loja Virtual. Todos os direitos reservados.</p>
+        </div>
     </footer>
+
 </body>
 </html>
